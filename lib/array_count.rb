@@ -9,7 +9,7 @@ def count_strings(array)
     end
     count += 1
   end
-  total_string
+  total_string.count
 end
 
 def count_empty_strings(array)
