@@ -13,5 +13,14 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-
+  count = 0 
+  total_string = []
+  
+  while count < array.count do
+    if array[count].class == String && " "
+      total_string << array[count]
+    end
+    count += 1
+  end
+  total_string.count
 end
